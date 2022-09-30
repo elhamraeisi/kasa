@@ -1,0 +1,28 @@
+.Error{
+  text-align: center;
+  color: #FF6060;
+}
+
+.Error-title {
+  font-size: 116px;
+  margin-bottom: 0 !important;
+}
+
+.Error-desc{
+  font-size: 22px;
+  margin-bottom: 100px;
+}
+
+.Error-link{
+  font-size: 14px;
+  color: #FF6060;
+}
+
+
+@media all and (max-width: 480px)
+{
+  .Error{
+   margin: 100px 40px 160px 40px;
+  }
+
+}

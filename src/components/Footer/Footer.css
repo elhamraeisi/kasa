@@ -1,0 +1,12 @@
+.Footer {
+  color: white;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.App-logo-black{
+  height: 50px;
+}

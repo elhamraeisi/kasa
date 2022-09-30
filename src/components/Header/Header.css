@@ -1,0 +1,57 @@
+header{
+    margin: 40px 40px 0px 40px;
+}
+
+.App-header {
+    color: #FF6060;
+    text-align: center;
+}
+
+.App-logo{
+    height: 70px;
+}
+
+.App-nav {
+    text-align: left;
+    display:grid ;
+    grid-template-columns: auto auto;
+}
+
+.App-nav-items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:20px;
+}
+
+.App-nav-items a{
+    text-decoration: none;
+    color: #FF6060;
+}
+
+.App-nav-items a:hover{
+    text-decoration: underline;
+}
+
+@media all and (max-width: 480px)
+{
+    header {
+        margin:20px;
+    }
+    .App-logo {
+        height: 55px;
+    }
+    .App-nav-items a {
+        text-transform: uppercase;
+    }
+}
+
+@media all and (max-width: 327px){
+    .App-nav {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .App-nav-items {
+        justify-content: space-evenly;
+    }
+}

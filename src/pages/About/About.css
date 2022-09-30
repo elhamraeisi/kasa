@@ -1,0 +1,30 @@
+.container-about{
+  margin: 0px 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.About {
+  position: relative;
+  border-radius: 15px;
+  margin: 40px;
+}
+
+.bgAbout {
+  background-image: url(../../assets/images/bgAbout.png);
+  filter: brightness(70%);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+@media all and (max-width: 480px)
+{
+  .About {
+    margin: 15px;
+  }
+  .container-about{
+    margin: 0px 15px 30px 15px;
+}
+}

@@ -1,0 +1,87 @@
+.Apartment {
+  position: relative;
+  border-radius: 15px;
+  margin: 40px;
+}
+
+.bgApartment {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 415px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.row {
+display: flex;
+flex-direction: row;
+column-gap: 10px;
+}
+
+.column {
+  flex: 1;
+}
+
+.text-red{
+color: #FF6060;
+}
+
+.tag {
+  height: 20px;
+  width: 160px;
+  background-color: #FF6060;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 10px 15px 0px 0px;
+  text-align: center;
+  color: white;
+}
+.host-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.prof-position{
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.stars-position{
+  float: right;
+}
+
+@media all and (max-width: 480px)
+{
+  .Apartment {
+    margin: 15px;
+  }
+  .bgApartment {
+    height: 255px;
+  }
+  .arrow-right{
+    height: 25px;
+  }
+  .arrow-left{
+    height: 25px;
+  }
+  .tag-display{
+    display: flex;
+  }
+  .row {
+    display: block;
+    }
+    .row-mobile{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      margin: 20px 0px;
+    }
+    .stars-position{
+      padding-top: 30px;
+    }
+}

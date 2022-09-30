@@ -1,0 +1,40 @@
+.Banner {
+  position: relative;
+  color: white;
+  border-radius: 15px;
+  padding: 60px 0px;
+  margin: 0px 40px;
+}
+
+.Banner h1 {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.bgbanner {
+  background-image: url(../../assets/images/bgheader.png);
+  filter: brightness(50%);
+  height: 200px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+@media all and (max-width: 480px)
+{
+  .Banner {
+    padding: 0px;
+    margin: 15px;
+  }
+  .Banner h1 {
+    top: 20px;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 300;
+  }
+  .bgbanner {
+    height: 160px;
+  }
+}

@@ -1,0 +1,26 @@
+.arrow-right{
+  position: absolute;
+  height: 50px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-right: 10px;
+}
+
+.arrow-left{
+  position: absolute;
+  height: 50px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 10px;
+}
+
+.number-image{
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translateY(-50%);
+  color: white;
+  padding-bottom: 10px;
+}
