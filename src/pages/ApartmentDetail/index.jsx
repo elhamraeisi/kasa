@@ -26,7 +26,7 @@ function ApartmentDetail() {
             <h2 className="text-red">{apartmentData.title}</h2>
             <p className="text-red">{apartmentData.location}</p>
             <div className="tag-display">
-              {apartmentData.tags.map(tag => (<span className="tag">{tag}</span>))}
+              {apartmentData.tags.map((tag, index) => (<span key={tag + index} className="tag">{tag}</span>))}
             </div>
           </div>
           <div className="column">
@@ -36,7 +36,7 @@ function ApartmentDetail() {
                 <img className="host-pic" src={apartmentData.host.picture} alt="hostPic" />
               </div>
               <div className="stars-position">
-                {[0, 0, 0, 0, 0].map((start, index) => stars > index ? <img src={starChecked} alt="rating" /> : <img src={star} alt="rating" />)}
+                {[0, 1, 2, 3, 4].map((item, index) => stars > index ? <img key={item} src={starChecked} alt="rating" /> : <img key={item} src={star} alt="rating" />)}
               </div>
             </div>
           </div>

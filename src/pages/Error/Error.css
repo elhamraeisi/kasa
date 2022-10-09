@@ -1,6 +1,8 @@
 .Error{
   text-align: center;
   color: #FF6060;
+  min-height: 90vh;
+
 }
 
 .Error-title {

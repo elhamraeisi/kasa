@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0px 0px 40px 40px;
+  min-height: 90vh;
+
 }
 
 @media all and (max-width: 480px)

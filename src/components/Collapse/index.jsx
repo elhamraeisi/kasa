@@ -10,8 +10,8 @@ function Collapse({ title, description }) {
     <div>
       <div className="collapse" onClick={() => setOpen(!open)}>
         <b>{title}</b>
-        {open === true ? <img className="arrowDown" src={arrowUp} alt="arrow" /> :
-          <img className="arrowDown" src={arrowDown} alt="arrow" />
+        {open === true ? <img className="arrow" src={arrowUp} alt="arrow" /> :
+          <img className="arrow" src={arrowDown} alt="arrow" />
         }
       </div>
       {open === true && <div className="content">

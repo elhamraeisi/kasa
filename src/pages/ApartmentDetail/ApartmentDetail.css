@@ -1,7 +1,11 @@
 .Apartment {
   position: relative;
   border-radius: 15px;
-  margin: 40px;
+  max-width: 1240px;
+  margin: 40px auto;
+  padding: 0px 40px;
+  min-height: 90vh;
+
 }
 
 .bgApartment {
@@ -36,6 +40,7 @@ color: #FF6060;
   margin: 10px 15px 0px 0px;
   text-align: center;
   color: white;
+  padding: 3px 15px 3px 15px;
 }
 .host-pic {
   height: 50px;
@@ -59,6 +64,8 @@ color: #FF6060;
 {
   .Apartment {
     margin: 15px;
+    padding: 0px ;
+
   }
   .bgApartment {
     height: 255px;
